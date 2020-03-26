@@ -3,12 +3,10 @@ spring:
     mode: HTML
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://rm-yyz99.mysql.zhangbei.rds.aliyuncs.com:3306/blog?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=true
-    username: testroot
-    password: testroot
+   
 #    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8&serverTimezone=CTT
-#    username: root
-#    password: 123456
+#    username: ******
+#    password: ******
   jpa:
     hibernate:
       ddl-auto: update
