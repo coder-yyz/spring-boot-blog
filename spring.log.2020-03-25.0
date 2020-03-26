@@ -1,0 +1,718 @@
+2020-03-25 14:26:00.942 warn 12728 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 12728 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 14:26:00.942 warn 12728 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: dev
+2020-03-25 14:26:01.129 warn 12728 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 14:26:01.130 warn 12728 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+2020-03-25 14:26:01.277 warn 12728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:26:01.278 warn 12728 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:26:01.278 warn 12728 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:26:01.302 warn 12728 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:26:01.302 warn 12728 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 357 ms
+2020-03-25 14:26:01.342 warn 12728 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 14:26:01.346 warn 12728 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-03-25 14:26:02.275 warn 12728 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-03-25 14:26:02.276 warn 12728 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-25 14:26:02.451 warn 12728 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 14:26:02.451 warn 12728 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 14:26:02.466 warn 12728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 14:26:02.490 warn 12728 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 14:26:02.541 warn 12728 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:26:02.559 warn 12728 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 14:26:02.759 warn 12728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 14:26:02.760 warn 12728 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 1.862 seconds (JVM running for 807.183)
+2020-03-25 14:26:02.762 warn 12728 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 14:26:07.418 warn 12728 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:26:07.420 warn 12728 --- [Thread-28] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 14:26:07.421 warn 12728 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-03-25 14:26:08.145 warn 12728 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-03-25 14:26:09.816 warn 12728 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 12728 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 14:26:09.816 warn 12728 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: dev
+2020-03-25 14:26:10.091 warn 12728 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 14:26:10.125 warn 12728 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34ms. Found 5 JPA repository interfaces.
+2020-03-25 14:26:10.445 warn 12728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:26:10.446 warn 12728 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:26:10.447 warn 12728 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:26:10.478 warn 12728 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:26:10.478 warn 12728 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 659 ms
+2020-03-25 14:26:10.585 warn 12728 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 14:26:10.591 warn 12728 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-03-25 14:26:11.511 warn 12728 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-03-25 14:26:11.512 warn 12728 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-25 14:26:13.065 warn 12728 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 14:26:13.067 warn 12728 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 14:26:13.153 warn 12728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 14:26:13.594 warn 12728 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 14:26:13.773 warn 12728 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:26:13.818 warn 12728 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 14:26:14.118 warn 12728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 14:26:14.119 warn 12728 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.376 seconds (JVM running for 818.542)
+2020-03-25 14:26:14.121 warn 12728 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 14:37:53.747 warn 21656 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 21656 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 14:37:53.753 warn 21656 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2020-03-25 14:37:53.900 warn 21656 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\YYZ\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-25 14:37:53.900 warn 21656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 14:37:53.901 warn 21656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 14:37:54.626 warn 21656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 14:37:54.717 warn 21656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83ms. Found 5 JPA repository interfaces.
+2020-03-25 14:37:55.510 warn 21656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:37:55.519 warn 21656 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:37:55.519 warn 21656 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:37:55.628 warn 21656 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:37:55.628 warn 21656 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1727 ms
+2020-03-25 14:37:55.875 warn 21656 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 14:37:55.934 warn 21656 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 14:37:56.041 warn 21656 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 14:37:56.138 warn 21656 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 14:37:57.315 warn 21656 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 14:37:57.332 warn 21656 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-25 14:37:59.651 warn 21656 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 14:37:59.660 warn 21656 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 14:37:59.722 warn 21656 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 14:38:00.576 warn 21656 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 14:38:00.804 warn 21656 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:38:00.919 warn 21656 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 14:38:01.503 warn 21656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 14:38:01.505 warn 21656 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 8.491 seconds (JVM running for 10.634)
+2020-03-25 14:38:56.442 warn 21656 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 14:38:56.443 warn 21656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 14:38:56.463 warn 21656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2020-03-25 14:38:56.515 warn 21656 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-25 14:38:57.365 warn 21656 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 14:38:57.465 warn 21656 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 14:38:57.636 warn 21656 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2020-03-25 14:39:01.122 warn 21656 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/types/-1', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-03-25 14:39:01.867 warn 21656 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Result : types
+2020-03-25 14:39:03.871 warn 21656 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/tags/-1', ip='127.0.0.1', classMethod='com.example.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-03-25 14:39:04.706 warn 21656 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Result : tags
+2020-03-25 14:39:59.099 warn 8776 --- [main] com.example.blog.BlogApplicationTests    : Starting BlogApplicationTests on DESKTOP-UO4UBV3 with PID 8776 (started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 14:39:59.100 warn 8776 --- [main] com.example.blog.BlogApplicationTests    : No active profile set, falling back to default profiles: default
+2020-03-25 14:40:00.028 warn 8776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 14:40:00.192 warn 8776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 150ms. Found 5 JPA repository interfaces.
+2020-03-25 14:40:01.316 warn 8776 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 14:40:01.422 warn 8776 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 14:40:01.659 warn 8776 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 14:40:02.697 warn 8776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 14:40:03.752 warn 8776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 14:40:03.788 warn 8776 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-25 14:40:06.271 warn 8776 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 14:40:06.282 warn 8776 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 14:40:08.258 warn 8776 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 14:40:08.835 warn 8776 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:40:09.035 warn 8776 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 14:40:09.621 warn 8776 --- [main] com.example.blog.BlogApplicationTests    : Started BlogApplicationTests in 11.218 seconds (JVM running for 12.596)
+2020-03-25 14:40:09.795 warn 8776 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:40:09.797 warn 8776 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 14:40:09.800 warn 8776 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-25 14:40:10.230 warn 8776 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-25 14:46:27.492 warn 21656 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:46:27.494 warn 21656 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 14:46:27.500 warn 21656 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-25 14:46:27.512 warn 21656 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-25 14:46:32.467 warn 21656 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 21656 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 14:46:32.468 warn 21656 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2020-03-25 14:46:32.659 warn 21656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 14:46:32.660 warn 21656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+2020-03-25 14:46:32.802 warn 21656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:46:32.803 warn 21656 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:46:32.803 warn 21656 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:46:32.823 warn 21656 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:46:32.823 warn 21656 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 352 ms
+2020-03-25 14:46:32.855 warn 21656 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 14:46:32.860 warn 21656 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-03-25 14:46:33.828 warn 21656 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-03-25 14:46:33.829 warn 21656 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-25 14:46:34.021 warn 21656 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 14:46:34.021 warn 21656 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 14:46:34.033 warn 21656 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 14:46:34.062 warn 21656 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 14:46:34.126 warn 21656 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:46:34.150 warn 21656 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 14:46:34.422 warn 21656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 14:46:34.424 warn 21656 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 2.001 seconds (JVM running for 523.552)
+2020-03-25 14:46:34.427 warn 21656 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 14:46:36.683 warn 21656 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:46:36.684 warn 21656 --- [Thread-28] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 14:46:36.686 warn 21656 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-03-25 14:46:36.933 warn 21656 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-03-25 14:46:38.302 warn 21656 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 21656 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 14:46:38.302 warn 21656 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2020-03-25 14:46:38.958 warn 21656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 14:46:39.096 warn 21656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126ms. Found 5 JPA repository interfaces.
+2020-03-25 14:46:39.645 warn 20776 --- [main] com.example.blog.BlogApplicationTests    : Starting BlogApplicationTests on DESKTOP-UO4UBV3 with PID 20776 (started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 14:46:39.653 warn 20776 --- [main] com.example.blog.BlogApplicationTests    : No active profile set, falling back to default profiles: default
+2020-03-25 14:46:39.741 warn 21656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:46:39.742 warn 21656 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:46:39.743 warn 21656 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:46:39.796 warn 21656 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:46:39.797 warn 21656 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1491 ms
+2020-03-25 14:46:39.920 warn 21656 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 14:46:39.926 warn 21656 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-03-25 14:46:40.609 warn 20776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 14:46:40.768 warn 20776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 144ms. Found 5 JPA repository interfaces.
+2020-03-25 14:46:40.836 warn 21656 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-03-25 14:46:40.837 warn 21656 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-25 14:46:41.895 warn 20776 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 14:46:42.033 warn 20776 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 14:46:42.250 warn 20776 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 14:46:42.360 warn 21656 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 14:46:42.361 warn 21656 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 14:46:42.414 warn 21656 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 14:46:42.966 warn 21656 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 14:46:43.134 warn 21656 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:46:43.188 warn 21656 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 14:46:43.490 warn 20776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 14:46:43.591 warn 21656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 14:46:43.592 warn 21656 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 5.363 seconds (JVM running for 532.721)
+2020-03-25 14:46:43.595 warn 21656 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 14:46:44.559 warn 20776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 14:46:44.606 warn 20776 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-25 14:46:47.135 warn 20776 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 14:46:47.145 warn 20776 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 14:46:49.209 warn 20776 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 14:46:49.642 warn 20776 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:46:49.846 warn 20776 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 14:46:50.539 warn 20776 --- [main] com.example.blog.BlogApplicationTests    : Started BlogApplicationTests in 11.996 seconds (JVM running for 13.602)
+2020-03-25 14:46:50.739 warn 20776 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:46:50.742 warn 20776 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 14:46:50.746 warn 20776 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-25 14:46:50.805 warn 20776 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-25 15:22:46.692 warn 6292 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 6292 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 15:22:46.740 warn 6292 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2020-03-25 15:22:46.802 warn 6292 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\YYZ\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-25 15:22:46.803 warn 6292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 15:22:46.803 warn 6292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 15:22:47.473 warn 6292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 15:22:47.557 warn 6292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77ms. Found 5 JPA repository interfaces.
+2020-03-25 15:22:48.248 warn 6292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 15:22:48.257 warn 6292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 15:22:48.258 warn 6292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 15:22:48.408 warn 6292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 15:22:48.409 warn 6292 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1605 ms
+2020-03-25 15:22:48.575 warn 6292 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 15:22:48.630 warn 6292 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 15:22:48.732 warn 6292 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 15:22:48.815 warn 6292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 15:22:49.835 warn 6292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 15:22:49.853 warn 6292 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-25 15:22:51.897 warn 6292 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 15:22:51.905 warn 6292 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 15:22:51.964 warn 6292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 15:22:52.753 warn 6292 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 15:22:52.954 warn 6292 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:22:53.048 warn 6292 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 15:22:53.580 warn 6292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 15:22:53.582 warn 6292 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 7.47 seconds (JVM running for 9.161)
+2020-03-25 15:23:06.450 warn 6292 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 15:23:06.451 warn 6292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 15:23:06.463 warn 6292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-03-25 15:23:06.498 warn 6292 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-25 15:23:07.227 warn 6292 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 15:23:07.309 warn 6292 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 15:23:07.460 warn 6292 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2020-03-25 15:23:10.964 warn 6292 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/blog/3', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.blog', args=[3, {}]}
+2020-03-25 15:23:11.475 warn 6292 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Result : blog
+2020-03-25 15:23:12.098 warn 6292 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/comments/3', ip='127.0.0.1', classMethod='com.example.blog.web.CommentController.comments', args=[3, {}]}
+2020-03-25 15:23:12.259 warn 6292 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2020-03-25 15:23:13.070 warn 6292 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/types/-1', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-03-25 15:23:13.721 warn 6292 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Result : types
+2020-03-25 15:23:15.686 warn 6292 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/tags/-1', ip='127.0.0.1', classMethod='com.example.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-03-25 15:23:16.402 warn 6292 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Result : tags
+2020-03-25 15:23:17.933 warn 6292 --- [http-nio-8080-exec-7] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/archives', ip='127.0.0.1', classMethod='com.example.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-03-25 15:23:18.707 warn 6292 --- [http-nio-8080-exec-7] com.example.blog.aspect.LogAspect        : Result : archives
+2020-03-25 15:23:20.922 warn 6292 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/about', ip='127.0.0.1', classMethod='com.example.blog.web.AboutShowController.about', args=[]}
+2020-03-25 15:23:20.924 warn 6292 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Result : about
+2020-03-25 15:32:32.254 warn 20316 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 20316 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 15:32:32.258 warn 20316 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2020-03-25 15:32:32.319 warn 20316 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\YYZ\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-25 15:32:32.320 warn 20316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 15:32:32.320 warn 20316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 15:32:33.066 warn 20316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 15:32:33.180 warn 20316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106ms. Found 5 JPA repository interfaces.
+2020-03-25 15:32:34.006 warn 20316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 15:32:34.018 warn 20316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 15:32:34.019 warn 20316 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 15:32:34.230 warn 20316 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 15:32:34.230 warn 20316 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1910 ms
+2020-03-25 15:32:34.417 warn 20316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 15:32:34.484 warn 20316 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 15:32:34.606 warn 20316 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 15:32:34.698 warn 20316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 15:32:35.689 warn 20316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 15:32:35.713 warn 20316 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-25 15:32:37.849 warn 20316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 15:32:37.863 warn 20316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 15:32:38.016 warn 20316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 15:32:38.980 warn 20316 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 15:32:39.217 warn 20316 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:32:39.313 warn 20316 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 15:32:39.986 warn 20316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 15:32:39.989 warn 20316 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 8.51 seconds (JVM running for 10.289)
+2020-03-25 15:32:40.162 warn 20316 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 15:32:40.162 warn 20316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 15:32:40.173 warn 20316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-03-25 15:38:24.553 warn 3576 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 3576 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 15:38:24.600 warn 3576 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2020-03-25 15:38:24.654 warn 3576 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\YYZ\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-25 15:38:24.655 warn 3576 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 15:38:24.656 warn 3576 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 15:38:25.215 warn 3576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 15:38:25.303 warn 3576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 5 JPA repository interfaces.
+2020-03-25 15:38:26.059 warn 3576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 15:38:26.067 warn 3576 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 15:38:26.067 warn 3576 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 15:38:26.218 warn 3576 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 15:38:26.219 warn 3576 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1563 ms
+2020-03-25 15:38:26.387 warn 3576 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 15:38:26.451 warn 3576 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 15:38:26.562 warn 3576 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 15:38:26.657 warn 3576 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 15:38:27.850 warn 3576 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 15:38:27.877 warn 3576 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-25 15:38:30.105 warn 3576 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 15:38:30.111 warn 3576 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 15:38:30.170 warn 3576 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 15:38:31.126 warn 3576 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 15:38:31.362 warn 3576 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:38:31.497 warn 3576 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 15:38:32.113 warn 3576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 15:38:32.116 warn 3576 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 8.146 seconds (JVM running for 9.907)
+2020-03-25 15:38:32.249 warn 3576 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 15:38:32.249 warn 3576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 15:38:32.263 warn 3576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-03-25 15:38:56.778 warn 3576 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/blog/3', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.blog', args=[3, {}]}
+2020-03-25 15:38:57.292 warn 3576 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Result : blog
+2020-03-25 15:38:58.257 warn 3576 --- [http-nio-8080-exec-5] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/comments/3', ip='127.0.0.1', classMethod='com.example.blog.web.CommentController.comments', args=[3, {}]}
+2020-03-25 15:38:58.440 warn 3576 --- [http-nio-8080-exec-5] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2020-03-25 15:39:03.530 warn 3576 --- [http-nio-8080-exec-3] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-25 15:39:04.238 warn 3576 --- [http-nio-8080-exec-3] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 15:39:04.322 warn 3576 --- [http-nio-8080-exec-3] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 15:39:04.489 warn 3576 --- [http-nio-8080-exec-3] com.example.blog.aspect.LogAspect        : Result : index
+2020-03-25 15:39:07.208 warn 3576 --- [http-nio-8080-exec-5] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-25 15:39:08.142 warn 3576 --- [http-nio-8080-exec-5] com.example.blog.aspect.LogAspect        : Result : index
+2020-03-25 15:39:38.756 warn 3576 --- [http-nio-8080-exec-4] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-25 15:39:39.695 warn 3576 --- [http-nio-8080-exec-4] com.example.blog.aspect.LogAspect        : Result : index
+2020-03-25 15:39:43.414 warn 3576 --- [http-nio-8080-exec-4] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/types/-1', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-03-25 15:39:44.117 warn 3576 --- [http-nio-8080-exec-4] com.example.blog.aspect.LogAspect        : Result : types
+2020-03-25 15:39:46.263 warn 3576 --- [http-nio-8080-exec-8] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/archives', ip='127.0.0.1', classMethod='com.example.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-03-25 15:39:50.097 warn 3576 --- [http-nio-8080-exec-8] com.example.blog.aspect.LogAspect        : Result : archives
+2020-03-25 15:47:24.728 warn 17400 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 17400 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 15:47:24.768 warn 17400 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2020-03-25 15:47:24.826 warn 17400 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\YYZ\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-25 15:47:24.827 warn 17400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 15:47:24.827 warn 17400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 15:47:25.461 warn 17400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 15:47:25.550 warn 17400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81ms. Found 5 JPA repository interfaces.
+2020-03-25 15:47:26.259 warn 17400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 15:47:26.267 warn 17400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 15:47:26.267 warn 17400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 15:47:26.422 warn 17400 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 15:47:26.422 warn 17400 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1595 ms
+2020-03-25 15:47:26.586 warn 17400 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 15:47:26.640 warn 17400 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 15:47:26.740 warn 17400 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 15:47:26.824 warn 17400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 15:47:28.066 warn 17400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 15:47:28.084 warn 17400 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-25 15:47:28.792 warn 17400 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 15:47:28.799 warn 17400 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 15:47:28.858 warn 17400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 15:47:29.625 warn 17400 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 15:47:30.011 warn 17400 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:47:30.101 warn 17400 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 15:47:30.447 warn 17400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 15:47:30.450 warn 17400 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 6.281 seconds (JVM running for 8.001)
+2020-03-25 15:47:37.709 warn 17400 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 15:47:37.710 warn 17400 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 15:47:37.727 warn 17400 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-03-25 15:47:47.785 warn 17400 --- [http-nio-8080-exec-2] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-03-25 15:47:47.810 warn 17400 --- [http-nio-8080-exec-2] com.example.blog.aspect.LogAspect        : Result : archives
+2020-03-25 15:48:06.318 warn 17400 --- [http-nio-8080-exec-7] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-03-25 15:48:06.332 warn 17400 --- [http-nio-8080-exec-7] com.example.blog.aspect.LogAspect        : Result : archives
+2020-03-25 15:48:09.767 warn 17400 --- [http-nio-8080-exec-8] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-03-25 15:48:09.777 warn 17400 --- [http-nio-8080-exec-8] com.example.blog.aspect.LogAspect        : Result : archives
+2020-03-25 15:53:47.637 warn 17400 --- [http-nio-8080-exec-4] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-03-25 15:53:47.645 warn 17400 --- [http-nio-8080-exec-4] com.example.blog.aspect.LogAspect        : Result : archives
+2020-03-25 16:13:37.692 warn 15376 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 15376 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 16:13:37.697 warn 15376 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2020-03-25 16:13:37.759 warn 15376 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\YYZ\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-25 16:13:37.759 warn 15376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 16:13:37.760 warn 15376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 16:13:38.407 warn 15376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 16:13:38.498 warn 15376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83ms. Found 5 JPA repository interfaces.
+2020-03-25 16:13:39.332 warn 15376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 16:13:39.345 warn 15376 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 16:13:39.345 warn 15376 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 16:13:39.552 warn 15376 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 16:13:39.553 warn 15376 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1793 ms
+2020-03-25 16:13:39.715 warn 15376 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 16:13:39.772 warn 15376 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 16:13:40.022 warn 15376 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 16:13:40.120 warn 15376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 16:13:41.177 warn 15376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 16:13:41.191 warn 15376 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-25 16:13:41.911 warn 15376 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 16:13:41.917 warn 15376 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 16:13:41.976 warn 15376 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 16:13:42.720 warn 15376 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 16:13:43.100 warn 15376 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:13:43.189 warn 15376 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 16:13:43.538 warn 15376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 16:13:43.540 warn 15376 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 6.51 seconds (JVM running for 8.211)
+2020-03-25 16:13:46.518 warn 15376 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 16:13:46.518 warn 15376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 16:13:46.532 warn 15376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-03-25 16:13:46.560 warn 15376 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/archives', ip='127.0.0.1', classMethod='com.example.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-03-25 16:13:46.654 warn 15376 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Result : archives
+2020-03-25 16:14:00.772 warn 15376 --- [http-nio-8080-exec-8] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-25 16:14:00.790 warn 15376 --- [http-nio-8080-exec-8] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 16:14:00.800 warn 15376 --- [http-nio-8080-exec-8] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 16:14:00.806 warn 15376 --- [http-nio-8080-exec-8] com.example.blog.aspect.LogAspect        : Result : index
+2020-03-25 16:14:03.122 warn 15376 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-25 16:14:03.136 warn 15376 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2020-03-25 16:14:05.761 warn 15376 --- [http-nio-8080-exec-7] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/types/-1', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-03-25 16:14:05.780 warn 15376 --- [http-nio-8080-exec-7] com.example.blog.aspect.LogAspect        : Result : types
+2020-03-25 16:26:07.248 warn 4268 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 4268 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 16:26:07.252 warn 4268 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2020-03-25 16:26:07.323 warn 4268 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\YYZ\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-25 16:26:07.323 warn 4268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 16:26:07.323 warn 4268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 16:26:07.950 warn 4268 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 16:26:08.050 warn 4268 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90ms. Found 5 JPA repository interfaces.
+2020-03-25 16:26:08.857 warn 4268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 16:26:08.868 warn 4268 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 16:26:08.868 warn 4268 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 16:26:09.036 warn 4268 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 16:26:09.036 warn 4268 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1713 ms
+2020-03-25 16:26:09.246 warn 4268 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 16:26:09.326 warn 4268 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 16:26:09.472 warn 4268 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 16:26:09.578 warn 4268 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 16:26:10.842 warn 4268 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 16:26:10.864 warn 4268 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-25 16:26:11.879 warn 4268 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 16:26:11.887 warn 4268 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 16:26:11.954 warn 4268 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 16:26:12.815 warn 4268 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 16:26:13.205 warn 4268 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:26:13.297 warn 4268 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 16:26:13.663 warn 4268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 16:26:13.666 warn 4268 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 7.024 seconds (JVM running for 9.126)
+2020-03-25 16:26:20.552 warn 4268 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 16:26:20.553 warn 4268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 16:26:20.566 warn 4268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-03-25 16:26:20.612 warn 4268 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/types/-1', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-03-25 16:26:20.626 warn 4268 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 16:26:20.840 warn 4268 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Result : types
+2020-03-25 16:26:25.371 warn 4268 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/types/16', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 16, {}]}
+2020-03-25 16:26:25.379 warn 4268 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Result : types
+2020-03-25 16:26:28.506 warn 4268 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-25 16:26:28.526 warn 4268 --- [http-nio-8080-exec-9] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 16:26:28.534 warn 4268 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Result : index
+2020-03-25 16:26:31.097 warn 4268 --- [http-nio-8080-exec-3] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-25 16:26:31.108 warn 4268 --- [http-nio-8080-exec-3] com.example.blog.aspect.LogAspect        : Result : index
+2020-03-25 16:26:36.956 warn 4268 --- [http-nio-8080-exec-7] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/archives', ip='127.0.0.1', classMethod='com.example.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-03-25 16:26:37.323 warn 4268 --- [http-nio-8080-exec-7] com.example.blog.aspect.LogAspect        : Result : archives
+2020-03-25 16:28:35.859 warn 4268 --- [http-nio-8080-exec-2] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-25 16:28:35.872 warn 4268 --- [http-nio-8080-exec-2] com.example.blog.aspect.LogAspect        : Result : index
+2020-03-25 16:31:21.219 warn 10480 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 10480 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 16:31:21.224 warn 10480 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2020-03-25 16:31:21.287 warn 10480 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\YYZ\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-25 16:31:21.287 warn 10480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 16:31:21.288 warn 10480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 16:31:21.962 warn 10480 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 16:31:22.045 warn 10480 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77ms. Found 5 JPA repository interfaces.
+2020-03-25 16:31:22.833 warn 10480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 16:31:22.842 warn 10480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 16:31:22.842 warn 10480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 16:31:23.010 warn 10480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 16:31:23.010 warn 10480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1722 ms
+2020-03-25 16:31:23.183 warn 10480 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 16:31:23.246 warn 10480 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 16:31:23.351 warn 10480 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 16:31:23.439 warn 10480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 16:31:24.617 warn 10480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 16:31:24.632 warn 10480 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-25 16:31:25.399 warn 10480 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 16:31:25.406 warn 10480 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 16:31:25.482 warn 10480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 16:31:26.227 warn 10480 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 16:31:26.617 warn 10480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:31:26.710 warn 10480 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 16:31:27.106 warn 10480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 16:31:27.109 warn 10480 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 6.527 seconds (JVM running for 8.258)
+2020-03-25 16:31:32.600 warn 10480 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 16:31:32.600 warn 10480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 16:31:32.614 warn 10480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-03-25 16:31:32.649 warn 10480 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-25 16:31:32.733 warn 10480 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 16:31:32.745 warn 10480 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 16:31:32.753 warn 10480 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2020-03-25 16:31:35.972 warn 10480 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/types/-1', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-03-25 16:31:36.011 warn 10480 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Result : types
+2020-03-25 16:31:37.576 warn 10480 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/tags/-1', ip='127.0.0.1', classMethod='com.example.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-03-25 16:31:37.600 warn 10480 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Result : tags
+2020-03-25 16:31:41.128 warn 10480 --- [http-nio-8080-exec-8] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/archives', ip='127.0.0.1', classMethod='com.example.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-03-25 16:31:41.147 warn 10480 --- [http-nio-8080-exec-8] com.example.blog.aspect.LogAspect        : Result : archives
+2020-03-25 16:41:47.130 warn 1600 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 1600 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 16:41:47.184 warn 1600 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2020-03-25 16:41:47.262 warn 1600 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\YYZ\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-25 16:41:47.263 warn 1600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 16:41:47.263 warn 1600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 16:41:47.926 warn 1600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 16:41:48.020 warn 1600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86ms. Found 5 JPA repository interfaces.
+2020-03-25 16:41:48.911 warn 1600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 16:41:48.918 warn 1600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 16:41:48.919 warn 1600 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 16:41:49.100 warn 1600 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 16:41:49.101 warn 1600 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1838 ms
+2020-03-25 16:41:49.348 warn 1600 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 16:41:49.552 warn 1600 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 16:41:49.725 warn 1600 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 16:41:49.834 warn 1600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 16:41:51.179 warn 1600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 16:41:51.195 warn 1600 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-25 16:41:52.095 warn 1600 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 16:41:52.109 warn 1600 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 16:41:52.209 warn 1600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 16:41:53.098 warn 1600 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 16:41:53.529 warn 1600 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:41:53.637 warn 1600 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 16:41:54.063 warn 1600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 16:41:54.066 warn 1600 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 7.566 seconds (JVM running for 9.324)
+2020-03-25 16:42:06.157 warn 1600 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 16:42:06.158 warn 1600 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 16:42:06.173 warn 1600 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-03-25 16:42:06.207 warn 1600 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/archives', ip='127.0.0.1', classMethod='com.example.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-03-25 16:42:06.317 warn 1600 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Result : archives
+2020-03-25 16:42:10.510 warn 1600 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/tags/-1', ip='127.0.0.1', classMethod='com.example.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-03-25 16:42:10.523 warn 1600 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 16:42:10.564 warn 1600 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Result : tags
+2020-03-25 16:42:15.509 warn 1600 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/types/-1', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-03-25 16:42:15.516 warn 1600 --- [http-nio-8080-exec-10] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 16:42:15.527 warn 1600 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Result : types
+2020-03-25 16:42:22.620 warn 1600 --- [http-nio-8080-exec-6] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/types/16', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 16, {}]}
+2020-03-25 16:42:22.633 warn 1600 --- [http-nio-8080-exec-6] com.example.blog.aspect.LogAspect        : Result : types
+2020-03-25 16:42:26.240 warn 1600 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/types/13', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 13, {}]}
+2020-03-25 16:42:26.251 warn 1600 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Result : types
+2020-03-25 16:44:08.334 warn 7784 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 7784 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 16:44:08.338 warn 7784 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2020-03-25 16:44:08.392 warn 7784 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\YYZ\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-25 16:44:08.393 warn 7784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 16:44:08.393 warn 7784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 16:44:09.003 warn 7784 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 16:44:09.093 warn 7784 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 5 JPA repository interfaces.
+2020-03-25 16:44:09.798 warn 7784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 16:44:09.806 warn 7784 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 16:44:09.807 warn 7784 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 16:44:09.958 warn 7784 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 16:44:09.958 warn 7784 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1565 ms
+2020-03-25 16:44:10.124 warn 7784 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 16:44:10.187 warn 7784 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 16:44:10.285 warn 7784 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 16:44:10.367 warn 7784 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 16:44:11.452 warn 7784 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 16:44:11.467 warn 7784 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-25 16:44:12.261 warn 7784 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 16:44:12.267 warn 7784 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 16:44:12.331 warn 7784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 16:44:13.239 warn 7784 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 16:44:13.667 warn 7784 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:44:13.784 warn 7784 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 16:44:14.224 warn 7784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 16:44:14.227 warn 7784 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 6.66 seconds (JVM running for 8.494)
+2020-03-25 16:44:14.417 warn 7784 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 16:44:14.417 warn 7784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 16:44:14.432 warn 7784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-03-25 16:44:14.484 warn 7784 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/types/13', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 13, {}]}
+2020-03-25 16:44:14.499 warn 7784 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 16:44:14.608 warn 7784 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Result : types
+2020-03-25 16:44:25.853 warn 7784 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/types/13', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 13, {}]}
+2020-03-25 16:44:25.861 warn 7784 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Result : types
+2020-03-25 16:44:28.585 warn 7784 --- [http-nio-8080-exec-7] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/tags/-1', ip='127.0.0.1', classMethod='com.example.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-03-25 16:44:28.591 warn 7784 --- [http-nio-8080-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 16:44:28.616 warn 7784 --- [http-nio-8080-exec-7] com.example.blog.aspect.LogAspect        : Result : tags
+2020-03-25 16:44:31.097 warn 7784 --- [http-nio-8080-exec-8] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/tags/22', ip='127.0.0.1', classMethod='com.example.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 22, {}]}
+2020-03-25 16:44:31.107 warn 7784 --- [http-nio-8080-exec-8] com.example.blog.aspect.LogAspect        : Result : tags
+2020-03-25 16:44:32.577 warn 7784 --- [http-nio-8080-exec-6] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/tags/23', ip='127.0.0.1', classMethod='com.example.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 23, {}]}
+2020-03-25 16:44:32.588 warn 7784 --- [http-nio-8080-exec-6] com.example.blog.aspect.LogAspect        : Result : tags
+2020-03-25 16:44:33.655 warn 7784 --- [http-nio-8080-exec-6] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/tags/32', ip='127.0.0.1', classMethod='com.example.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 32, {}]}
+2020-03-25 16:44:33.669 warn 7784 --- [http-nio-8080-exec-6] com.example.blog.aspect.LogAspect        : Result : tags
+2020-03-25 16:44:35.433 warn 7784 --- [http-nio-8080-exec-2] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/tags/21', ip='127.0.0.1', classMethod='com.example.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 21, {}]}
+2020-03-25 16:44:35.545 warn 7784 --- [http-nio-8080-exec-2] com.example.blog.aspect.LogAspect        : Result : tags
+2020-03-25 16:44:37.037 warn 7784 --- [http-nio-8080-exec-8] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/types/-1', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-03-25 16:44:37.045 warn 7784 --- [http-nio-8080-exec-8] com.example.blog.aspect.LogAspect        : Result : types
+2020-03-25 16:48:23.565 warn 100 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 100 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 16:48:23.569 warn 100 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2020-03-25 16:48:23.628 warn 100 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\YYZ\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-25 16:48:23.629 warn 100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 16:48:23.629 warn 100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 16:48:24.296 warn 100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 16:48:24.383 warn 100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 5 JPA repository interfaces.
+2020-03-25 16:48:25.164 warn 100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 16:48:25.174 warn 100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 16:48:25.175 warn 100 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 16:48:25.345 warn 100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 16:48:25.345 warn 100 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1715 ms
+2020-03-25 16:48:25.520 warn 100 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 16:48:25.583 warn 100 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 16:48:25.681 warn 100 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 16:48:25.766 warn 100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 16:48:26.872 warn 100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 16:48:26.889 warn 100 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-25 16:48:27.682 warn 100 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 16:48:27.689 warn 100 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 16:48:27.751 warn 100 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 16:48:28.589 warn 100 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 16:48:28.985 warn 100 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:48:29.081 warn 100 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 16:48:29.458 warn 100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 16:48:29.461 warn 100 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 6.577 seconds (JVM running for 8.372)
+2020-03-25 16:48:29.515 warn 100 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 16:48:29.515 warn 100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 16:48:29.527 warn 100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-03-25 16:48:29.564 warn 100 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-03-25 16:48:29.579 warn 100 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 16:48:29.681 warn 100 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Result : types
+2020-03-25 16:48:37.435 warn 100 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[25, {}]}
+2020-03-25 16:48:38.055 warn 100 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2020-03-25 16:48:48.632 warn 100 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-25 16:48:48.646 warn 100 --- [http-nio-8080-exec-10] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 16:48:48.654 warn 100 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Result : index
+2020-03-25 16:50:28.205 warn 2648 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 2648 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 16:50:28.211 warn 2648 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2020-03-25 16:50:28.303 warn 2648 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\YYZ\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-25 16:50:28.304 warn 2648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 16:50:28.304 warn 2648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 16:50:28.974 warn 2648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 16:50:29.064 warn 2648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81ms. Found 5 JPA repository interfaces.
+2020-03-25 16:50:29.788 warn 2648 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 16:50:29.797 warn 2648 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 16:50:29.797 warn 2648 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 16:50:29.901 warn 2648 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 16:50:29.901 warn 2648 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1596 ms
+2020-03-25 16:50:30.136 warn 2648 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 16:50:30.200 warn 2648 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 16:50:30.355 warn 2648 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 16:50:30.452 warn 2648 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 16:50:31.693 warn 2648 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 16:50:31.709 warn 2648 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-25 16:50:32.450 warn 2648 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 16:50:32.456 warn 2648 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 16:50:32.519 warn 2648 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 16:50:33.416 warn 2648 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 16:50:33.815 warn 2648 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:50:33.910 warn 2648 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 16:50:34.280 warn 2648 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 16:50:34.282 warn 2648 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 6.87 seconds (JVM running for 8.842)
+2020-03-25 16:50:35.723 warn 2648 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 16:50:35.723 warn 2648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 16:50:35.737 warn 2648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-03-25 16:50:35.776 warn 2648 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-25 16:50:35.853 warn 2648 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 16:50:35.865 warn 2648 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-25 16:50:35.870 warn 2648 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2020-03-25 17:11:04.986 warn 20384 --- [main] com.example.blog.BlogApplicationTests    : Starting BlogApplicationTests on DESKTOP-UO4UBV3 with PID 20384 (started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 17:11:04.988 warn 20384 --- [main] com.example.blog.BlogApplicationTests    : No active profile set, falling back to default profiles: default
+2020-03-25 17:11:05.800 warn 20384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 17:11:05.908 warn 20384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98ms. Found 5 JPA repository interfaces.
+2020-03-25 17:11:06.923 warn 20384 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 17:11:07.010 warn 20384 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 17:11:07.213 warn 20384 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 17:11:08.193 warn 20384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 17:11:09.491 warn 20384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 17:11:09.524 warn 20384 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-25 17:11:10.800 warn 20384 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 17:11:10.809 warn 20384 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 17:11:12.651 warn 20384 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 17:11:13.046 warn 20384 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 17:11:13.196 warn 20384 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 17:11:13.652 warn 20384 --- [main] com.example.blog.BlogApplicationTests    : Started BlogApplicationTests in 9.255 seconds (JVM running for 10.325)
+2020-03-25 17:11:13.812 warn 20384 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 17:11:13.814 warn 20384 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 17:11:13.816 warn 20384 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-25 17:11:13.828 warn 20384 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-25 17:20:30.571 warn 17444 --- [main] com.example.blog.BlogApplicationTests    : Starting BlogApplicationTests on DESKTOP-UO4UBV3 with PID 17444 (started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 17:20:30.573 warn 17444 --- [main] com.example.blog.BlogApplicationTests    : No active profile set, falling back to default profiles: default
+2020-03-25 17:20:31.441 warn 17444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 17:20:31.557 warn 17444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101ms. Found 5 JPA repository interfaces.
+2020-03-25 17:20:32.542 warn 17444 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 17:20:32.644 warn 17444 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 17:20:32.819 warn 17444 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 17:20:33.925 warn 17444 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 17:20:35.219 warn 17444 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 17:20:35.246 warn 17444 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-25 17:20:37.886 warn 17444 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 17:20:37.894 warn 17444 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 17:20:39.792 warn 17444 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 17:20:40.267 warn 17444 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 17:20:40.437 warn 17444 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 17:20:40.899 warn 17444 --- [main] com.example.blog.BlogApplicationTests    : Started BlogApplicationTests in 10.825 seconds (JVM running for 11.946)
+2020-03-25 17:20:41.056 warn 17444 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 17:20:41.058 warn 17444 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 17:20:41.061 warn 17444 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-25 17:20:41.562 warn 17444 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-25 17:34:40.403 warn 21092 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication on DESKTOP-UO4UBV3 with PID 21092 (C:\Users\YYZ\Desktop\blog\target\classes started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 17:34:40.408 warn 21092 --- [restartedMain] com.example.blog.BlogApplication         : No active profile set, falling back to default profiles: default
+2020-03-25 17:34:40.498 warn 21092 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\YYZ\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/YYZ/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-25 17:34:40.499 warn 21092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 17:34:40.499 warn 21092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 17:34:41.165 warn 21092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 17:34:41.251 warn 21092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78ms. Found 5 JPA repository interfaces.
+2020-03-25 17:34:41.985 warn 21092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 17:34:41.994 warn 21092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 17:34:41.995 warn 21092 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 17:34:42.151 warn 21092 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 17:34:42.152 warn 21092 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1653 ms
+2020-03-25 17:34:42.320 warn 21092 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 17:34:42.377 warn 21092 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 17:34:42.483 warn 21092 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 17:34:42.568 warn 21092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 17:34:43.620 warn 21092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 17:34:43.641 warn 21092 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-25 17:34:46.048 warn 21092 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 17:34:46.055 warn 21092 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 17:34:46.118 warn 21092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 17:34:46.881 warn 21092 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 17:34:47.080 warn 21092 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 17:34:47.170 warn 21092 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 17:34:47.710 warn 21092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 17:34:47.712 warn 21092 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 7.849 seconds (JVM running for 9.756)
+2020-03-25 19:05:42.478 warn 18668 --- [main] com.example.blog.BlogApplicationTests    : Starting BlogApplicationTests on DESKTOP-UO4UBV3 with PID 18668 (started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 19:05:42.479 warn 18668 --- [main] com.example.blog.BlogApplicationTests    : No active profile set, falling back to default profiles: default
+2020-03-25 19:05:43.244 warn 18668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 19:05:43.346 warn 18668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91ms. Found 5 JPA repository interfaces.
+2020-03-25 19:05:44.258 warn 18668 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 19:05:44.362 warn 18668 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 19:05:44.523 warn 18668 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 19:05:45.602 warn 18668 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 19:05:46.699 warn 18668 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 19:05:46.728 warn 18668 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-25 19:05:49.071 warn 18668 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 19:05:49.081 warn 18668 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 19:05:50.752 warn 18668 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 19:05:51.109 warn 18668 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 19:05:51.271 warn 18668 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 19:05:51.776 warn 18668 --- [main] com.example.blog.BlogApplicationTests    : Started BlogApplicationTests in 9.795 seconds (JVM running for 10.854)
+2020-03-25 19:05:51.917 warn 18668 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 19:05:51.919 warn 18668 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 19:05:51.924 warn 18668 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-25 19:05:52.028 warn 18668 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-25 19:08:18.001 warn 3320 --- [main] com.example.blog.BlogApplicationTests    : Starting BlogApplicationTests on DESKTOP-UO4UBV3 with PID 3320 (started by YYZ in C:\Users\YYZ\Desktop\blog)
+2020-03-25 19:08:18.002 warn 3320 --- [main] com.example.blog.BlogApplicationTests    : No active profile set, falling back to default profiles: default
+2020-03-25 19:08:18.850 warn 3320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-25 19:08:18.974 warn 3320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110ms. Found 5 JPA repository interfaces.
+2020-03-25 19:08:19.997 warn 3320 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-25 19:08:20.125 warn 3320 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-25 19:08:20.337 warn 3320 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-25 19:08:21.346 warn 3320 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 19:08:22.583 warn 3320 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 19:08:22.640 warn 3320 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-25 19:08:25.188 warn 3320 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-25 19:08:25.198 warn 3320 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 19:08:26.934 warn 3320 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-25 19:08:27.302 warn 3320 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 19:08:27.461 warn 3320 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 19:08:28.026 warn 3320 --- [main] com.example.blog.BlogApplicationTests    : Started BlogApplicationTests in 10.542 seconds (JVM running for 11.651)
+2020-03-25 19:08:28.179 warn 3320 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 19:08:28.181 warn 3320 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-25 19:08:28.185 warn 3320 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-25 19:08:28.212 warn 3320 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
